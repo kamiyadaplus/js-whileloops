@@ -47,7 +47,7 @@ while(i < 12){
 var i = 0;
 var tvShows = ["Breaking Bad", "Game of Thrones", "The Bachelor", "The Walking Dead", "Keeping Up with the Kardasians"];
 while(tvShows[i]){
-	console.log('I like to binge watch ', tvShows[i]);
+	//console.log('I like to binge watch ', tvShows[i]);
 	i++
 }
 
@@ -63,6 +63,11 @@ while(tvShows[i]){
 
 */
 
+var i = 1; 
+while(i < 10){
+	console.log (i + 'x' + '3' + ' = ' + (i*3));
+	i++
+}
 
 
 
