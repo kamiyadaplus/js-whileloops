@@ -31,8 +31,11 @@ while(i < 11){
 ...
 ...
 "Now serving 11"*/
-
-
+var i = 0
+while(i < 12){
+	i++
+	console.log('Now serving ', i,);
+}
 
 /*3. Use a while loop to loop through the tvShows array and print out the following:
 
